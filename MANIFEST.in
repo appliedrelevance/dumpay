@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dumpay *.css
+recursive-include dumpay *.csv
+recursive-include dumpay *.html
+recursive-include dumpay *.ico
+recursive-include dumpay *.js
+recursive-include dumpay *.json
+recursive-include dumpay *.md
+recursive-include dumpay *.png
+recursive-include dumpay *.py
+recursive-include dumpay *.svg
+recursive-include dumpay *.txt
+recursive-exclude dumpay *.pyc
